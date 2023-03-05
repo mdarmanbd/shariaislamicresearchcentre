@@ -1,0 +1,257 @@
+
+
+*{
+   padding: 0px;
+   margin: 0px;
+   outline: 0px;
+}
+
+.top-bar{
+    background: #157815;
+}
+.bg-green{
+    background: #157815 !important;
+}
+.color-green{
+    color: #157815 !important;
+}
+.footer-bg{
+    background: #212831;
+}
+.text-gray{
+    color: rgb(121, 118, 118);
+}
+.text-justify{
+    text-align: justify !important;
+}
+.fs-18{
+    font-size: 18px !important;
+} 
+.top-bar-icon a i{
+    font-weight: 400;
+    transition: 0.5s all;
+    color: white;
+}
+.top-bar-icon a i:hover{
+    color: #000;
+    transition: 0.5s all;
+}
+.top-log{
+    background: #ffffff;
+}
+
+.nav-hover a{
+    transition: 0.5s all;
+}
+.nav-hover a:hover{
+    color: #157815 !important;
+    transition: 0.5s all;
+}
+.slide-01{
+    background-image: url(../../asset/img/slide03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(74, 73, 73, 0.858);
+}
+.slide-contain{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding-right: 20px; 
+    
+    
+    
+}
+.btn1{
+    outline-color: #157815;
+    text-decoration: none;
+    background: #157815;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.btn1:hover{
+    background: black;
+    transition: 0.5s all;
+    color: white;
+    
+}
+
+.btn2{
+    outline-color: black;
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.btn2:hover{
+    background: #157815;
+    transition: 0.5s all;
+    color: white;
+}
+
+.services-icon{
+    width: 80px;
+    height: 80px;
+    background: #157815;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    color: white;
+}
+
+.result{
+    background-image: url(../../asset/img/slide03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    box-shadow: inset 0 0 0 2000px rgba(3, 3, 3, 0.3);
+    position: relative;
+    z-index: 00000;
+   
+}
+.result::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 7, 7, 0.763);
+    top: 0;
+}
+.result-icon{
+    width: 80px;
+    height: 80px;
+    background: #8d89899c;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.footer-img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.footer-img .footer-contain{
+    position: absolute;
+    top: 120px;
+}
+.footer-contain a i:hover{
+    color: white !important;
+    transition: 0.5s all;
+}
+
+.academy p span:hover{
+    color: #157815;
+    transition: 0.5s all;
+}
+
+.z-ndex{
+    z-index: 99999 !important;
+}
+
+/* -------- */
+
+
+
+.top-bar-icon a i{
+    font-weight: 400;
+    transition: 0.5s all;
+    color: white;
+}
+.top-bar-icon a i:hover{
+    color: #000;
+    transition: 0.5s all;
+}
+
+
+.nav-hover a{
+    transition: 0.5s all;
+}
+.nav-hover a:hover{
+    color: #157815 !important;
+    transition: 0.5s all;
+}
+.contact{
+    background-image: url(../../asset/img/slide03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(15, 15, 15, 0.785);
+}
+.question-icon{
+    width: 65px;
+    height: 65px;
+    background: #157815;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.4s all;
+}
+.question-icon i{
+    margin: auto 0px;
+}
+.question-icon:hover{
+    transform: scale(1.1);
+    transition: 0.4s all;
+}
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+.question-from{
+    background-image: url(../../asset/img/slide03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(2, 71, 12, 0.911);
+}
+
+
+
+
+.card-top-bar a:hover{
+    color: #157815 !important;
+    transition: 0.4s all;
+}
+.read-more a:hover{
+    color: #157815 !important;
+    transition: 0.5s all;
+}
+.card{
+    cursor: pointer;
+}
+.card img{
+    transition: 0.4s all;
+    transform:rotateY(0deg);
+}
+.card:hover img{
+    transform: rotateY(20deg);
+    transition: 0.4s all;
+}
+
+.color-lightGray{
+    color: rgb(121, 118, 118);
+}
